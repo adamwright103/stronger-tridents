@@ -11,5 +11,6 @@ public class StrongerTridents implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
 	}
 }

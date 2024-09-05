@@ -3,7 +3,8 @@
 	"package": "net.alphaadux.strongertridents.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"EnchantmentHelperMixin",
+		"ExtraTridentEnchantsMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
