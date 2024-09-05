@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "strongertridents",
+	"version": "${version}",
+	"name": "Stronger Tridents",
+	"description": "This mod aims to make tridents more effective in survival minecraft, and adds some QOL features",
+	"authors": [
+		"adamwright103"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/strongertridents/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.alphaadux.strongertridents.StrongerTridents"
+		],
+		"fabric-datagen": [
+			"net.alphaadux.strongertridents.StrongerTridentsDataGenerator"
+		],
+		"client": [
+			"net.alphaadux.strongertridents.StrongerTridentsClient"
+		]
+	},
+	"mixins": [
+		"strongertridents.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
